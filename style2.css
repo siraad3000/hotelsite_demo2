@@ -1,0 +1,228 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 992px){
+    body {
+        background-color: grey;
+        font-family: sans-serif;
+    }
+    a{
+        color: white;
+    }
+    h1 {
+        color: white;
+        font-size: 2em;
+    }
+    h2 {
+        color: white;
+        text-align: start;
+    }
+    footer {
+        font-size: medium;
+    }
+    .sec1 {
+        background-color: #333;
+        opacity: 70%;
+        height: 5.5em;
+        width: 525px;
+        text-align: center;
+    }
+    .section /* room rubrik*/ {
+       
+        background-color:#333;  
+        height: 3.5em;  
+        width: 100em;    
+        position: relative;   
+        text-align: center;     
+    }
+    .section1 {
+       text-align: center;
+       color: white; 
+       font-size: medium;
+    }    
+    .section2 {
+       text-align: center;
+       color: white;
+       font-size: medium;
+    }
+    .section3 {
+      text-align: center;
+      color: white;
+      font-size: medium;
+    }
+    .section4 {
+        text-align: center;
+        color: white;
+        font-size: medium;
+    }
+    #section6 {
+        color: black;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .navigation2 {
+        position: fixed;
+        opacity: 85%;
+        width: 350px;
+        right: -500px;
+        height: 100%;
+        background-color:#333;
+        transition: .5s;
+    }
+    .navigation2 ul li {
+        color: white;
+        text-align: right;
+        text-transform: uppercase;
+        list-style-type: none;
+        font-size: 1.5em;
+        padding: 20px 30px;
+        border-bottom: 1pt solid #252525;
+    }
+    .hamburger2, .bar {
+        position: fixed;
+    }
+       /* styling av hamburgar ikon*/
+    .hamburger2 {
+    display: block;
+    top: 5%;
+    left: 92%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%);
+    border: 0;
+    background: 0 0;
+    }
+       /*meny ikon */
+    .bar {
+    top: 3px;
+    background: white;
+    width: 100%;
+    height: 3px;
+    transition: all .3s ease-in;
+    }
+  
+    #bar-2 {
+        top: 11px;
+    }
+     #bar-3{
+        top: 19px;
+    }
+    .navigation2.active {
+        right: 0;
+    }
+    .hamburger2.open.bar-1 {
+        background-color: white;
+        transform: rotate(45deg) translate(6px, 5px);
+    }
+    .hamburger2.open.bar-2 {
+        background-color: transparent;
+    }
+    .hamburger2.open.bar-3 {
+        background-color: white;
+        transform: rotate(-45deg) translate(6px,-5px);
+    } 
+    .nav1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+    background-color: grey;
+    font-family: sans-serif;
+    }
+
+/* room rubrik*/
+    .sec1 {
+        background-color: #333;
+        opacity: 70%;
+        height: 3.5em;
+        text-align: center;
+    }
+   .section1 {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center; 
+   color: white;   
+   }    
+   .section2 {
+   display: grid;
+   flex-direction: row;
+   text-align: center;
+   color: white;
+   }
+   .section3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    }
+   .section4 {
+   display: grid;
+   flex-direction: row;
+   text-align: center;
+   color: white;
+   }
+   .section5 {
+
+   display: flex;
+   flex-direction: row;
+   }
+   .section6 {
+    display: flex;
+    text-align: start;
+    }
+    p {
+    color: white;
+    font-family: sans-serif;
+    }
+    h1 {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    }
+    h2 {
+    color: white;
+    font-size: 25px; 
+    font-family: sans-serif;
+    }
+    a {
+    color: white;
+    font-family: sans-serif;
+    }
+    footer {
+        font-size: medium;
+    }
+
+    .nav1 {
+        background-color: #333;
+        opacity: 70%;
+        overflow: hidden;
+        height: 3.5em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .nav1 a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .nav1 a:hover {
+    background-color: white;
+    color: black;
+    }
+    .navigation2 {
+        display: none;
+    }
+
+}
+
+
