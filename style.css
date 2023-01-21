@@ -18,7 +18,17 @@ body {
     height: 5.5em;
     width: 525px;
     text-align: center;  
-    font-family: sans-serif;
+    font-family: sans-serif;    
+}
+
+.icon {
+   
+    display: block;
+    top: 5%;
+    right: 92%;
+    width: 30px;
+    height: 30px;
+    color: white;
 }
 footer {
     position: fixed;
@@ -42,6 +52,7 @@ h1 {
     color: white;
     text-align: center;
 }
+
 .sec5{
     display: grid;
     flex-direction: row;
@@ -144,7 +155,7 @@ body {
 }
 .container1 /* det härär för skiworld tex */ {
     background-color: #333;
-    opacity: 70%;
+   
     height: 3.5em;
     text-align: center;
  }
@@ -162,11 +173,17 @@ h2 {
 p {
     text-align: start;
 }
+.icon {
+    display: flex;
+    justify-content: left;
+    color: white;
+}
  .sec6 {
     display: grid;
     flex-direction: row;
-    text-align: end;
+   
 }
+   
 article {
      color:white;
 }
@@ -177,7 +194,7 @@ footer {
 }
 .nav3 {
     background-color: #333;
-    opacity: 70%;
+   
     overflow: hidden;
     height: 3.5em;
     display: flex;

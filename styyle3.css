@@ -35,6 +35,15 @@
       width: 525px;
       text-align: center;
     }
+    .icon {
+   
+      display: block;
+      top: 5%;
+      right: 92%;
+      width: 30px;
+      height: 30px;
+      color: white;
+  }
      .info{
       text-align: left;
      }
@@ -149,13 +158,16 @@
      }
      .con{
         background-color: #333;
-        opacity: 70%;
         height: 3.5em;
         text-align: center;
      }
+     .icon {
+      display: flex;
+      justify-content: left;
+      color: white;
+      }
      .thenav {
         background-color: #333;
-        opacity: 70%;
         overflow: hidden;
         height: 3.5em;
         display: flex;

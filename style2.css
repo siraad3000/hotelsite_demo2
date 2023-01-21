@@ -24,6 +24,15 @@
     footer {
         font-size: medium;
     }
+    .icon {
+   
+        display: block;
+        top: 5%;
+        right: 92%;
+        width: 30px;
+        height: 30px;
+        color: white;
+    }
     .sec1 {
         background-color: #333;
         opacity: 70%;
@@ -35,27 +44,27 @@
        
         background-color:#333;  
         height: 3.5em;  
-        width: 100em;    
+        width: 525;    
         position: relative;   
         text-align: center;     
     }
     .section1 {
-       text-align: center;
+       text-align: left;
        color: white; 
        font-size: medium;
     }    
     .section2 {
-       text-align: center;
+       text-align: left;
        color: white;
        font-size: medium;
     }
     .section3 {
-      text-align: center;
+      text-align: left;
       color: white;
       font-size: medium;
     }
     .section4 {
-        text-align: center;
+        text-align: left;
         color: white;
         font-size: medium;
     }
@@ -139,9 +148,14 @@
 /* room rubrik*/
     .sec1 {
         background-color: #333;
-        opacity: 70%;
         height: 3.5em;
         text-align: center;
+    }
+    .icon {
+   
+        display: flex;
+        justify-content: left;
+        color: white;
     }
    .section1 {
    display: grid;
@@ -201,7 +215,6 @@
 
     .nav1 {
         background-color: #333;
-        opacity: 70%;
         overflow: hidden;
         height: 3.5em;
         display: flex;
